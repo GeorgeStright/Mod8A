@@ -1,0 +1,9 @@
+<script>
+  function notifyYes(){
+    alert("You have received a new package");
+  }
+
+  function notifyNO(){
+    alert("Your package is delayed. Sorry");
+  }
+</script>
