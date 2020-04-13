@@ -1,0 +1,33 @@
+<html>
+<title>Homepage</title>
+<head>
+  <script scr="fnAlerts.js"></script>
+</head>
+<body>
+  <a href="#" onclick="alert('Hello Everyone');">First Link</a>
+  <br>
+  <a href="JavaScript:void(0)" onclick="var greeting='hello'; alert(greeting);">Second Link</a>
+  <br>
+  <hr>
+  <h1>Buttons</h1>
+  <input type="button" value="Submit" onClick="alert('Hello Monday morning');"
+  <br>
+  <img src="Smiley.png" height="240" width="400" onClick="alert('Smiles all around!');">
+  <hr>
+  <h1> Mouse Over</h1>
+  <p>Bringing the smiles with some puppies</p>
+  <img src="smile dog.png" height="240" width="400" onmouseover="src='happy dog.png'" onmouseout="src='smile dog.png'">
+  <hr>
+  <h1>Events</h1>
+  Email: <br>
+  <input type="text" size="50"
+  onFucus="this.style.backgroundColor = 'yellow';"
+  onBlur="this.style.backgroundColor = 'white';">
+  <br>
+  School: <br>
+  <input type="text" size="50"
+  onFucus="this.style.backgroundColor = 'yellow';"
+  onBlur="this.style.backgroundColor = 'white';">
+  <br>
+</body>
+</html>
